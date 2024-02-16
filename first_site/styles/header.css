@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.header__main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../images/background/bgHead.png");
+    background-size: cover;
+}
+
+.header__logo {
+    margin-top: 41px;
+}
+
+.header__text-title,
+.header__text-subtitle,
+.header__text-subtitle2 {
+    margin: 0;
+    color: white;
+}
+
+.header__text-title {
+    margin-top: 317px;
+    margin-left: 6px;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 6px;
+    font-family: BebasNeueB, sans-serif;
+}
+
+.header__text-subtitle {
+    margin-bottom: 221px;
+    line-height: 19px;
+    font-family: OpenSansR, sans-serif;
+}
+
+.header__text-subtitle2 {
+    margin-bottom: 71px;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 4px;
+    font-family: OpenSansL, sans-serif;
+}

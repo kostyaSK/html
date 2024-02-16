@@ -1,0 +1,153 @@
+.footer__main {
+    background: #141A20;
+    padding: 40px 0 42px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__company,
+.footer__links,
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer__company {
+    margin-right: 71px;
+}
+
+.footer__links {
+    margin-right: 58px;
+}
+
+.footer__contact-us {
+    margin-right: 46px;
+}
+
+.footer__links-nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer__links-first-nav,
+.footer__links-second-nav,
+.footer__links-third-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links-first-nav {
+    margin-right: 34px;
+}
+
+.footer__links-second-nav {
+    margin-right: 38px;
+}
+
+.footer__logos {
+    width: 87px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__main h1,
+.footer__links-nav a {
+    color: #FFFFFF;
+}
+
+.footer__links-nav a:hover {
+    color: #16ACE8;
+}
+
+.footer__company-title,
+.footer__company-subtitle,
+.footer__links-title,
+.footer__contact-us-title,
+.footer__contact-us-street,
+.footer__contact-us-number,
+.footer__contact-us-email,
+.footer__copyright-text {
+    margin: 0;
+}
+
+.footer__company-title,
+.footer__links-title,
+.footer__contact-us-title {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    font-family: OpenSansL, sans-serif;
+}
+
+.footer__company-title {
+    margin-bottom: 19px;
+}
+
+.footer__company-logo {
+    margin-bottom: 15px;
+}
+
+.footer__company-subtitle {
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    font-family: OpenSansL, sans-serif;
+}
+
+.footer__links-title {
+    margin-bottom: 10px;
+}
+
+.footer__links-nav a {
+    margin-bottom: 17px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    font-family: OpenSansM, sans-serif;
+}
+
+.footer__contact-us-title {
+    margin-bottom: 15px;
+}
+
+.footer__contact-us-street,
+.footer__contact-us-number,
+.footer__contact-us-email {
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-family: OpenSansL, sans-serif;
+}
+
+.footer__contact-us-street {
+    margin-bottom: 23px;
+}
+
+.footer__contact-us-number {
+    margin-bottom: 23px;
+}
+
+.footer__logos {
+    width: 87px;
+    height: 13px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    background: #171819;
+    display: flex;
+    justify-content: center;
+    padding: 22px 0 23px 0;;
+}
+
+.footer__copyright-text {
+    color: #FFFFFF;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    font-family: OpenSansL, sans-serif;
+}

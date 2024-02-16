@@ -1,0 +1,33 @@
+.primary {
+    color: white;
+    background: #00A4E5;
+    font-family: OpenSansM, sans-serif;
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+    padding: 11px 29px;
+    border: none;
+    cursor: pointer;
+}
+
+.get-in-touch {
+    color: white;
+    margin-bottom: 231px;
+    background: #00A4E5;
+    font-family: OpenSansM, sans-serif;
+    font-size: 13px;
+    padding: 11px 29px;
+    border: none;
+    cursor: pointer;
+}
+
+.primary:hover,
+.get-in-touch:hover {
+    background: #0074a2;
+}
+
+
+.primary:active,
+.get-in-touch:hover {
+    background: #244e5e;
+}
