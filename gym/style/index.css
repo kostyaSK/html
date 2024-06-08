@@ -1,0 +1,29 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-black-dark: #000000;
+    --color-black-light: #0C1417;
+    --color-grey-dark: #FFFFFF80;
+    --color-grey-light: rgba(255, 255, 255, 0.7);
+    --color-grey-light2: rgba(255, 255, 255, 0.5);
+
+    --color-orange: #F7931E;
+
+    --shadow-img: 0 4px 50px 0 rgba(0, 0, 0, 0.5);
+
+    --fontfamily-b: MontB, sans-serif;
+    --fontfamily-m: MontM, sans-serif;
+    --fontfamily-r: MontR, sans-serif;
+    --fontfamily-l: MontL, sans-serif;
+
+    --animation-speed: .3s;
+    --animation-func: ease;
+    --animation: var(--animation-speed) var(--animation-func);
+}
+
+body {
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}

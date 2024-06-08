@@ -1,0 +1,115 @@
+.footer {
+    padding: 15px 60px 50px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--color-black-dark);
+}
+
+.footer-links,
+.footer-address {
+    padding-top: 35px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo div {
+    margin-top: 8px;
+    display: flex;
+}
+
+.logo-ap-icon,
+.logo-ap-title,
+.logo-ap-subtitle {
+    margin: 0;
+    font-size: 14px;
+    font-family: var(--fontfamily-r);
+    color: var(--color-grey-light);
+    line-height: 22px;
+}
+
+.logo-ap-icon {
+    margin-right: 15px;
+}
+
+.logo-ap-subtitle {
+    margin-top: 16px;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-links-first {
+    margin-right: 50px;
+}
+
+.footer-links-second {
+    margin-right: 77px;
+}
+
+.footer-links-third {
+    margin-right: 80px;
+}
+
+.footer-links div a {
+    font-size: 14px;
+    font-family: var(--fontfamily-r);
+    line-height: 24px;
+    color: var(--color-grey-light);
+    text-decoration: none;
+    outline: none;
+}
+
+.footer-links div a span {
+    border-bottom: 1px solid transparent;
+    transition: border-color var(--animation);
+}
+
+.footer-links div a:hover span,
+.footer-links div a:focus span {
+    border-color: var(--color-grey-light);
+}
+
+.footer-links-logo {
+    margin-top: 15px;
+    display: flex;
+}
+
+.footer-links-logo a:first-child {
+    margin-right: 15px;
+}
+
+.footer-logo-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: invert(35%);
+    transition: filter var(--animation);
+}
+
+.footer-logo-icon:hover,
+.footer-logo-icon:focus {
+    filter: invert(50%);
+}
+
+.footer-address h3 {
+    margin: 0 0 15px;
+    font-size: 14px;
+    font-family: var(--fontfamily-r);
+    color: var(--color-grey-light);
+    line-height: 24px;
+}
+
+.footer-address h3:last-child {
+    margin: 0;
+}

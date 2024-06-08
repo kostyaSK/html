@@ -1,0 +1,92 @@
+main {
+    background: var(--color-black-light);
+}
+
+.main-about {
+    padding-top: 100px;
+    padding-right: 134px;
+    padding-left: 134px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-about-imgs {
+    margin-right: 76px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-img-woman,
+.main-img-equip {
+    box-shadow: var(--shadow-img);
+}
+
+.main-img-woman {
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.main-img-equip {
+    margin-top: 40px;
+}
+
+.main-about-title,
+.main-about-subtitle {
+    margin: 0;
+    color: var(--color-white);
+}
+
+.main-about-title {
+    margin-top: 72px;
+    font-size: 30px;
+    font-family: var(--fontfamily-b);
+    line-height: 34px;
+}
+
+.main-about-subtitle {
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: var(--fontfamily-r);
+    line-height: 26px;
+}
+
+.main-about-link {
+    margin-top: 40px;
+}
+
+.main-mini-cards {
+    margin-top: 101px;
+    padding-right: 60px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-mini-cards div {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.main-mini-cards div:last-child::after {
+    content: '';
+    position: absolute;
+    left: -23px;
+    bottom: -21px;
+    display: block;
+    width: 303px;
+    height: 2px;
+    background: var(--color-orange);
+}
+
+.main-mini-cards div img {
+    margin-right: 25px;
+}
+
+.main-mini-cards div p {
+    margin: 0;
+    font-size: 18px;
+    font-family: var(--fontfamily-m);
+    color: var(--color-white);
+    line-height: 28px;
+}

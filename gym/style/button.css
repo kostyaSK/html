@@ -1,0 +1,77 @@
+.main-orange-button,
+.main-transition-button,
+.price-button,
+.price-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fontfamily-b);
+    text-decoration: none;
+    outline: none;
+}
+
+.main-orange-button {
+    width: 290px;
+    height: 68px;
+    color: var(--color-white);
+    background: url("../images/button/horizon_rectangle-border.svg") top right no-repeat,
+                url("../images/button/horizon_rectangle.svg") bottom left no-repeat;
+    transition: background-position var(--animation),
+                font-size var(--animation);
+}
+
+.main-orange-button:hover,
+.main-orange-button:focus {
+    font-size: 17px;
+    background: url("../images/button/horizon_rectangle-border.svg") center no-repeat,
+                url("../images/button/horizon_rectangle.svg") center no-repeat;
+}
+
+.main-transition-button {
+    width: 280px;
+    height: 60px;
+    color: var(--color-white);
+    background: url("../images/button/horizon_rectangle-border.svg") no-repeat;
+    transition: transform var(--animation),
+                font-size var(--animation);
+}
+
+.main-transition-button:hover,
+.main-transition-button:focus {
+    font-size: 17px;
+    transform: scale(1.025);
+}
+
+.price-button {
+    width: 220px;
+    height: 50px;
+    color: var(--color-orange);
+    background: url("../images/button/price_transition_button.svg") top right no-repeat;
+    transition: transform var(--animation),
+                font-size var(--animation),
+                background var(--animation);
+}
+
+.price-button:hover,
+.price-button:focus {
+    font-size: 18px;
+    transform: scale(1.05);
+}
+
+.gallery-button {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color var(--animation);
+}
+
+.gallery-button:hover,
+.gallery-button:focus {
+    background-color: var(--color-grey-light);
+}

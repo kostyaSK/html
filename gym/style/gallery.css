@@ -1,0 +1,84 @@
+.gallery {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../images/icons/gallery_rectangle_border.svg") bottom 35px left no-repeat,
+                url("../images/icons/gallery_rectangle.svg") bottom left no-repeat,
+                var(--color-black-light);
+}
+
+.gallery-title {
+    margin: 0;
+    font-size: 30px;
+    font-family: var(--fontfamily-b);
+    line-height: 34px;
+    color: var(--color-white);
+}
+
+.gallery-people,
+.gallery-gym {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-people {
+    margin-top: 80px;
+}
+
+.gallery-gym {
+    margin-top: 60px;
+}
+
+.gallery-people-imgs,
+.gallery-gym-imgs {
+    margin-right: 42px;
+    margin-left: 42px;
+    display: flex;
+}
+
+.gallery-people-imgs img,
+.gallery-gym-imgs img {
+    box-shadow: var(--shadow-img);
+}
+
+.gallery-people-imgs img {
+    margin-right: 30px;
+}
+
+.gallery-gym-imgs img {
+    margin-right: 38px;
+}
+
+.gallery-people-imgs img:last-child,
+.gallery-gym-imgs img:last-child {
+    margin-right: 0;
+}
+
+.gallery-nav {
+    position: relative;
+    margin-top: 30px;
+    width: 1000px;
+    height: 10px;
+    display: flex;
+}
+
+.nav-long-line {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--color-white);
+}
+
+.gallery-little-line {
+    margin-left: 52px;
+    width: 200px;
+    height: 100%;
+    background-color: var(--color-orange);
+    z-index: 1;
+    cursor: pointer;
+}

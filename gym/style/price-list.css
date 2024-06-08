@@ -1,0 +1,220 @@
+.price-list {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-white);
+}
+
+.price-title-thirst {
+    margin: 0;
+    font-size: 30px;
+    font-family: var(--fontfamily-b);
+    line-height: 34px;
+    color: var(--color-black-light);
+}
+
+.price-table,
+.price-time-table {
+    width: 100%;
+    padding-bottom: 90px;
+    padding-right: 170px;
+    padding-left: 175px;
+}
+
+.price-table {
+    margin-top: 80px;
+    background: url("../images/icons/price_group_rectangle.svg") bottom -30px right no-repeat;
+}
+
+.price-table-title,
+.price-time-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-title-underline {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    width: auto;
+    height: 1px;
+    background-color: var(--color-black-light);
+}
+
+.price-table-title h3,
+.price-time-title h3 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--color-black-light);
+}
+
+.price-table-title h3:first-child {
+    width: 235px;
+    font-family: var(--fontfamily-r);
+}
+
+.price-table-title h3:nth-child(n + 2),
+.price-time-title h3:nth-child(n + 2) {
+    width: 165px;
+    text-align: center;
+    font-family: var(--fontfamily-b);
+}
+
+.price-table-title h3:last-child {
+    color: var(--color-orange);
+}
+
+.price-table-line {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-table-line h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.table-line-title {
+    width: 235px;
+    font-family: var(--fontfamily-b);
+    color: var(--color-black-light);
+}
+
+.table-line-title span {
+    font-family: var(--fontfamily-l);
+}
+
+.line-title-first {
+    color: var(--color-orange);
+}
+
+.price-table-line h3:nth-child(n + 2),
+.price-time-line h3:nth-child(n + 2) {
+    width: 165px;
+    font-family: var(--fontfamily-l);
+    text-align: center;
+}
+
+.price-table-line-first h3:last-child {
+    font-family: var(--fontfamily-b);
+}
+
+.price-title {
+    margin: 0;
+    font-size: 24px;
+    font-family: var(--fontfamily-b);
+    line-height: 30px;
+    color: var(--color-black-light);
+}
+
+.price-time-table {
+    margin-top: 80px;
+    background: url("../images/icons/price_rectangle_border.svg") bottom left no-repeat,
+                url("../images/icons/price_rectangle.svg") bottom 30px left -6px no-repeat;
+}
+
+.price-time-title h3:nth-child(3) {
+    color: var(--color-orange);
+}
+
+.price-time-line-first h3:nth-child(3) {
+    font-family: var(--fontfamily-b);
+}
+
+.price-list-cards {
+    margin-top: 80px;
+    display: flex;
+}
+
+.price-list-card {
+    width: 308px;
+    height: 372px;
+    margin-right: 30px;
+    padding: 32px 21px 23px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow var(--animation);
+}
+
+.price-list-card:last-child {
+    margin-right: 0;
+}
+
+.price-list-card:hover {
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.08);
+}
+
+.price-card-first:hover .price-button-first {
+    color: var(--color-white);
+    background: url("../images/button/price_button.svg");
+}
+
+.price-card-second:hover .price-button-second {
+    color: var(--color-white);
+    background: url("../images/button/price_button.svg");
+}
+
+.price-card-third:hover .price-button-third {
+    color: var(--color-white);
+    background: url("../images/button/price_button.svg");
+}
+
+.price-card-first:hover .price-card-title-first {
+    color: var(--color-orange);
+}
+
+.price-card-second:hover .price-card-title-second {
+    color: var(--color-orange);
+}
+
+.price-card-third:hover .price-card-title-third {
+    color: var(--color-orange);
+}
+
+.price-card-title {
+    margin: 0;
+    font-family: var(--fontfamily-b);
+    text-align: center;
+    line-height: 24px;
+}
+
+.price-card-time {
+    margin: 20px 0 0;
+}
+
+.price-card-num-train {
+    margin: 15px 0 0;
+}
+
+.price-card-time,
+.price-card-num-train {
+    margin: 20px 0 0;
+    font-size: 15px;
+    font-family: var(--fontfamily-l);
+    color: var(--color-black-light);
+    opacity: 0.5;
+    text-align: center;
+    line-height: 20px;
+}
+
+.price-list-card img {
+    margin-top: 30px;
+}
+
+.price-card-value {
+    margin: 15px 0 0;
+    font-family: var(--fontfamily-b);
+    color: var(--color-black-light);
+    line-height: 30px;
+}
+
+.price-list-button {
+    margin-top: 30px;
+}

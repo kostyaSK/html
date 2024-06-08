@@ -1,0 +1,66 @@
+.coaches {
+    padding: 100px 51px 100px 82px;
+    background: url("../images/icons/coaches_rectangle.svg") top 20px left no-repeat,
+                var(--color-black-light);
+}
+
+.coaches-cards-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coaches-cards-section > h1 {
+    margin-top: 207px;
+    font-size: 30px;
+    font-family: var(--fontfamily-b);
+    line-height: 34px;
+    color: var(--color-white)
+}
+
+.coaches-cards {
+    display: flex;
+}
+
+.coaches-cards div {
+    margin-right: 28px;
+}
+
+.coaches-cards div:last-child {
+    margin-right: 0;
+}
+
+.coaches-cards div img {
+    width: 307px;
+    height: 430px;
+}
+
+.coaches-cards div:last-child {
+    width: 93px;
+    overflow: hidden;
+}
+
+.coaches-cards div h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: var(--fontfamily-b);
+    line-height: 24px;
+    color: var(--color-white);
+}
+
+.coaches-cards div p {
+    margin: 0 0 10px;
+    font-size: 15px;
+    font-family: var(--fontfamily-l);
+    line-height: 20px;
+    color: var(--color-grey-dark);
+}
+
+.coaches-nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.coaches-nav button:first-child {
+    margin-right: 40px;
+}
